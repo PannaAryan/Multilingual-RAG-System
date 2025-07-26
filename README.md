@@ -121,7 +121,7 @@ Use cURL, Postman, or browser (if frontend added):
 ```bash
 curl -X POST http://localhost:8000/query \
     -H "Content-Type: application/json" \
-    -d '{"question": "শম্ভু নার্ দসকিাি হালত কী পিখ্ কিলত রেলয়রেল ন?"}'
+    -d '{"question": "শম্ভুনাথ সেকরার হাতে কী পরখ করতে দিয়েছিলেন?"}'
 ```
 
 ---
@@ -134,7 +134,7 @@ curl -X POST http://localhost:8000/query \
 
 ```json
 {
-  "question": "শম্ভু নার্ দসকিাি হালত কী পিখ্ কিলত রেলয়রেল ন?"
+  "question": "শম্ভুনাথ সেকরার হাতে কী পরখ করতে দিয়েছিলেন?"
 }
 ```
 
