@@ -9,4 +9,4 @@ def get_retriever():
         connection_string=POSTGRES_URI,
         embedding_function=embedder
     )
-    return vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 3})
+    return vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 10})
