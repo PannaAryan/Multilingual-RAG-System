@@ -1,0 +1,28 @@
+# Core LangChain dependencies
+langchain
+langchain-google-genai
+langchain-community
+
+# Google Generative AI
+google-generativeai
+
+# Vector storage
+pgvector
+psycopg2-binary  # PostgreSQL adapter
+
+# Text splitting
+tiktoken
+
+# Server
+fastapi
+uvicorn
+
+
+
+
+# Frontend serving (optional)
+jinja2
+
+# Other utilities
+python-dotenv
+pypdf
